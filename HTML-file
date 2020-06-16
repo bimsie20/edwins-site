@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="NL">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="120">
+  <meta name="viewport" content="width=device-width">
+  <style>
+    body {
+      margin: 0px;
+      background-color: blue;
+      background-image: url('papa-foto,s/kaka.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: Helvetica;
+    }
+    div#d01 {
+      background-color: rgba(195, 195, 195, 0.7);
+      overflow: hidden;
+    }
+    ul#header li {
+      float: left;
+
+    }
+    ul#header {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+    }
+    ul#header li a {
+      display: block;
+      padding: 20px;
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+    }
+    ul#header li a:hover {
+      background-color: rgba(180, 20, 0, 0.7);
+    }
+    ul#header li a:active {
+      background-color: rgba(160, 10, 0, 0.7);
+    }
+    h1 {
+      font-size: 60px;
+      text-align: center;
+      margin-top: 35px;
+      color: rgba(0, 0, 0, 0.7)
+    }
+    div h2 {
+      text-align: center;
+      font-size: 40px;
+      color: rgb(160, 160, 160);
+    }
+    div p {
+      text-align: initial;
+      font-size: 20px;
+      color: rgb(190, 190, 190);
+      margin-left: 200px;
+    }
+    img#img01 {
+      width: 503px;
+      height: 212px;
+      border: 5px solid black;
+      border-radius: 9px;
+    }
+    div {
+      background: rgba(80, 80, 80, 0.97);
+    }
+    @media (max-width: 1300px) {
+      body {
+        background-image:　url(zie_pi-config);
+      }
+    }
+    #hr01 {
+      background: rgba(150, 150, 150, 0.96);
+      padding: 20px;
+    }
+    #nv01 {
+      background: rgba(193, 193, 193, 0.8);
+      float: left;
+      width: 20%;
+      height: 350px;
+    }
+    #nv01 ul {
+      list-style-type: disc;
+      margin-left: 10px;
+      margin-top: 30px;
+    }
+    #ae01 {
+      background:rgba(80, 80, 80, 0.9);
+      float: left;
+      width: 80%;
+      height: 350px;
+    }
+    #fr01 {
+      background:rgba(95, 95, 95, 0.9)
+    }
+    .h3HR {
+      text-align: center;
+      margin-right: 200px;
+    }
+  </style>
+</head>
+<body>
+<script>
+  function f01() {
+    document.getElementById('h301').innerHTML = "";
+    document.getElementById('p01').innerHTML = "";
+  }
+  function f02() {
+    document.getElementById('h301').innerHTML = "";
+    document.getElementById('p01').innerHTML = "";
+  }
+  function f03() {
+    document.getElementById('h301').innerHTML = "";
+    document.getElementById('p01').innerHTML = "";
+  }
+
+  window.alert('JavaScript werkt!');
+</script>
+
+
+<div id="d01">
+  <ul id="header">
+    <li><a href="thysen.edwin.html">Home</a></li>
+    <li><a>Job</a></li>
+    <li><a>Help</a></li>
+  </ul>
+</div>
+
+<h1>Mijn naam is Edwin</h1>
+
+<header id="hr01"><h2>Ik werk geregeld.</h2></header>
+
+<section>
+  <nav id="nv01">
+    <ul>
+      <li><button onclick="f01()">mene camion</button></li>
+      <li><button onclick="f02()">mene parkeerplaats</button></li>
+      <li><button onclick="f03()">mene Nokia</button></li>
+    </ul>
+  </nav>
+
+  <article id="ae01">
+    <h3 class="h3HR" id="h301">Kiek nohw!</h3>
+    <p id="p01">oh noooooo</p>
+  </article>
+</section>
+
+<footer id="fr01">#Lenaers Express#</footer>
+
+
+</body>
+</html>
